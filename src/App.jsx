@@ -19,11 +19,11 @@ function App() {
       <Navbar></Navbar>
 
       <section className='relative' id='home'>
-        <div className='pb-10 lg:pb-0'>
+        <div className='pb-1 lg:pb-0'>
           <video src={cv} autoPlay loop muted className='ss' />
         </div>
         <div className="tagline  pt-9 pb-5  text-center lg:pb-48">
-          <p className='text-4xl style-script-regular lg:text-6xl lg:px-40 lg:pt-28'>Dinner is such a unique experience that makes you forget everything.</p>
+          <p className='text-2xl md:text-4xl style-script-regular lg:text-6xl lg:px-40 lg:pt-28'>Dinner is such a unique experience that makes you forget everything.</p>
           <button className="bg-green-600 hover:bg-blue-700 text-white py-2  rounded-full mx-auto mt-4 flex  items-center px-5 font-bold lg:mt-16 lg:text-3xl">
             Reserve a Table
           </button>
